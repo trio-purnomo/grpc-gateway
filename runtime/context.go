@@ -17,10 +17,10 @@ import (
 
 // MetadataHeaderPrefix is the http prefix that represents custom metadata
 // parameters to or from a gRPC call.
-const MetadataHeaderPrefix = "Grpc-Metadata-"
+const MetadataHeaderPrefix = ""
 
 // MetadataPrefix is the prefix for grpc-gateway supplied custom metadata fields.
-const MetadataPrefix = "grpcgateway-"
+const MetadataPrefix = ""
 
 // MetadataTrailerPrefix is prepended to gRPC metadata as it is converted to
 // HTTP headers in a response handled by grpc-gateway
